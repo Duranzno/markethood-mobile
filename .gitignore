@@ -39,8 +39,9 @@ yarn-error.log
 buck-out/
 \.buckd/
 *.keystore
+keystore.properties
 !debug.keystore
-
+android/app/*/*.aab
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
@@ -68,3 +69,5 @@ buck-out/
 # Configurations
 app/config/env.*.js
 !env.js
+examples
+key-answers.md
