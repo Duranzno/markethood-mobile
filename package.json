@@ -167,7 +167,22 @@
       "@typescript-eslint/no-explicit-any": 0,
       "@typescript-eslint/no-object-literal-type-assertion": 0,
       "@typescript-eslint/no-empty-interface": 0,
-      "@typescript-eslint/no-var-requires": 0
+      "@typescript-eslint/no-var-requires": 0,
+      "@typescript-eslint/ban-types": [
+        "error",
+        {
+          "types": {
+            "String": {
+              "message": "Use string instead",
+              "fixWith": "string"
+            },
+            "{}": {
+              "message": "Use object instead",
+              "fixWith": "object"
+            }
+          }
+        }
+      ]
     }
   }
 }

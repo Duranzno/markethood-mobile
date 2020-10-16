@@ -1,4 +1,5 @@
-import { TextStyle, TextProps as TextProperties } from "react-native"
+import { TextProps as TextProperties, TextStyle } from "react-native"
+
 import { TextPresets } from "./text.presets"
 
 export interface TextProps extends TextProperties {
@@ -16,7 +17,7 @@ export interface TextProps extends TextProperties {
    * Optional options to pass to i18n. Useful for interpolation
    * as well as explicitly setting locale or translation fallbacks.
    */
-  txOptions?: object
+  txOptions?: Record<string, unknown>
 
   /**
    * The text to display if not using `tx` or nested components.

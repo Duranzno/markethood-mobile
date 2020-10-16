@@ -64,16 +64,18 @@ export async function save(key: string, value: any): Promise<boolean> {
  * @param key The key to kill.
  */
 export async function remove(key: string): Promise<void> {
-  try {
-    await AsyncStorage.removeItem(key)
-  } catch {}
+  // try {
+  await AsyncStorage.removeItem(key)
+  // } catch  {
+
+  // }
 }
 
 /**
  * Burn it all to the ground.
  */
 export async function clear(): Promise<void> {
-  try {
-    await AsyncStorage.clear()
-  } catch {}
+  // try {
+  await AsyncStorage.clear()
+  // } catch {}
 }
