@@ -47,10 +47,14 @@
     "react-native-gesture-handler": "^1.5.0",
     "react-native-keychain": "6.1.1",
     "react-native-localize": "^1.0.0",
+    "react-native-progress": "3.4.0",
+    "react-native-push-notification": "^3.1.9",
     "react-native-safe-area-context": "0.7.3",
     "react-native-safe-area-view": "1.1.1",
     "react-native-screens": "^2.10.1",
+    "react-native-snap-carousel": "3.4.0",
     "react-native-splash-screen": "3.2.0",
+    "react-native-vector-icons": "6.1.0",
     "reactotron-mst": "^3.1.1",
     "reactotron-react-native": "^5.0.0",
     "validate.js": "0.13.1"
@@ -83,6 +87,10 @@
     "eslint-plugin-react-native": "^3.6.0",
     "eslint-plugin-standard": "^4.0.0",
     "ignite-bowser": "^5.4.1",
+    "ignite-progress": "^0.0.3",
+    "ignite-push-notification": "^1.0.0",
+    "ignite-snap-carousel": "^0.0.4",
+    "ignite-vector-icons": "^1.1.1",
     "jest": "25.5.4",
     "jetifier": "^1.6.2",
     "metro-react-native-babel-preset": "^0.59.0",
@@ -97,6 +105,7 @@
     "solidarity": "3.0.0",
     "typescript": "3.9.7"
   },
+  "license": "MIT",
   "jest": {
     "preset": "react-native",
     "setupFiles": [
